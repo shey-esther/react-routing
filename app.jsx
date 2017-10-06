@@ -33,6 +33,70 @@ class About extends React.Component {
 	}
 }
 
+class Teachers extends React.Component {
+	render() {
+		return (
+			<div className="row">
+				<div className="col-md-12 ">
+					<div className="col-sm-6 ">
+						<div className="thumbnail">
+							<img src="img/teacher.png" alt="..." />
+							<div className="caption">
+								<h3>Teachers</h3>
+								<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
+								visit the Teachers section to view a list of our talented teachers</p>
+							</div>
+						</div>
+					</div>
+					<div className="col-sm-6 ">
+						<div className="thumbnail">
+							<img src="img/teacher.png" alt="..." />
+							<div className="caption">
+								<h3>Teachers</h3>
+								<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
+								visit the Teachers section to view a list of our talented teachers</p>
+							</div>
+						</div>
+					</div>
+					<div className="col-sm-6 ">
+						<div className="thumbnail">
+							<img src="img/teacher.png" alt="..." />
+							<div className="caption">
+								<h3>Teachers</h3>
+								<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
+								visit the Teachers section to view a list of our talented teachers</p>
+							</div>
+						</div>
+					</div>
+					<div className="col-sm-6 ">
+						<div className="thumbnail">
+							<img src="img/teacher.png" alt="..." />
+							<div className="caption">
+								<h3>Teachers</h3>
+								<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
+								visit the Teachers section to view a list of our talented teachers</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		);
+	}
+}
+
+class Course extends React.Component {
+	render() {
+		return (
+			<div className="main-content">
+				<h2>Course</h2>
+				<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
+					visit the Teachers section to view a list of our talented teachers. Or visit the Courses section and select a
+					topic -- HTML, CSS, or JavaScript -- to see a list of our courses.</p>
+			</div>
+		);
+	}
+}
+
 class Repos extends React.Component {
 	render() {
 		return (
@@ -72,6 +136,12 @@ class App extends React.Component {
 			case '/about':
 				Child = About;
 				break;
+			case '/teacher':
+				Child = Teachers;
+				break;
+			case '/course':
+				Child = Course;
+				break;
 			case '/repos':
 				Child = Repos;
 				break;
@@ -86,9 +156,8 @@ class App extends React.Component {
 						<ul className="nav navbar-nav">
 							<li className="active"><a href="#/about">About</a></li>
 							<li><a href="#/repos">Repos</a></li>
-							<li className="active"><a href="#">Page 1</a></li>
-							<li><a href="#">Page 2</a></li>
-							<li className="active"><a href="#">Page 3</a></li>
+							<li><a href="#/teacher">Teachers</a></li>
+							<li><a href="#/course">Course</a></li>
 						</ul>
 					</div>
 				</nav>
