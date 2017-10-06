@@ -1,7 +1,7 @@
 // import React, { Component } from 'react';
 // import logo from './logo.svg';
 // import './App.css';
-
+'use strict'
 class Home extends React.Component {
 	render() {
 		return (
@@ -25,6 +25,12 @@ class About extends React.Component {
 		return (
 			<div className="main-content about">
 				<h2>About</h2>
+				<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
+					visit the Teachers section to view a list of our talented teachers. Or visit the Courses section and select a
+					topic -- HTML, CSS, or JavaScript -- to see a list of our courses.Notice the use of %PUBLIC_URL% in the tags above.
+     				It will be replaced with the URL of the `public` folder during the build.
+      				Only files inside the `public` folder can be referenced from the HTML.</p>
+					<hr/>
 			</div>
 		);
 	}
@@ -142,15 +148,11 @@ class Repos extends React.Component {
 	render() {
 		return (
 			<div className="bodie">
-				<h5>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
+				<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
 					visit the Teachers section to view a list of our talented teachers. Or visit the Courses section and select a
 					topic -- HTML, CSS, or JavaScript -- to see a list of our courses.Notice the use of %PUBLIC_URL% in the tags above.
      				It will be replaced with the URL of the `public` folder during the build.
-      				Only files inside the `public` folder can be referenced from the HTML.
-
-      				Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      				work correctly both with client-side routing and a non-root public URL.
-					Learn how to configure a non-root public URL by running `npm run build`.  </h5>
+      				Only files inside the `public` folder can be referenced from the HTML.</p>
 				<hr />
 				<h2>Courses</h2>
 				<nav className="navbar navbar-inverse">
