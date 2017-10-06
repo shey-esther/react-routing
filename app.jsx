@@ -23,11 +23,12 @@ class Home extends React.Component {
 class About extends React.Component {
 	render() {
 		return (
-			<div className="main-content">
+			<div className="main-content about">
 				<h2>About</h2>
 				<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
 					visit the Teachers section to view a list of our talented teachers. Or visit the Courses section and select a
 					topic -- HTML, CSS, or JavaScript -- to see a list of our courses.</p>
+				<hr/>
 			</div>
 		);
 	}
@@ -194,7 +195,7 @@ class App extends React.Component {
 		}
 
 		return (
-			<div>
+			<div className= "bodie">
 				<nav className="navbar navbar-inverse">
 					<div className="container-fluid">
 						<ul className="nav navbar-nav">

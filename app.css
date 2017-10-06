@@ -1,9 +1,41 @@
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+#root{
+  background-color: #1F8D6C;
+  padding: 5%;
+}
+
+.bodie{
+  background-color: white;
+}
+
 .media-object {
   width: 50%;
   display: block;
 }
+
 .lenguajes {
+  font-family: "Helvetica Neue";
   background-color: rgba(195, 210, 216, 0.59);
   margin-bottom: 1%;
   padding: 2%;
+  width: 90%;
+  margin: 7%;
+}
+
+.about{
+  margin: 0px;
+  padding: 5%;
+  background-color: #EBF0F3;
+}
+
+hr{
+  padding: 1px;
+  background-color: #BBADAD;
 }
