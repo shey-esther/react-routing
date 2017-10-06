@@ -27,8 +27,14 @@ class About extends React.Component {
 				<h2>About</h2>
 				<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
 					visit the Teachers section to view a list of our talented teachers. Or visit the Courses section and select a
-					topic -- HTML, CSS, or JavaScript -- to see a list of our courses.</p>
-				<hr/>
+					topic -- HTML, CSS, or JavaScript -- to see a list of our courses.Notice the use of %PUBLIC_URL% in the tags above.
+     				It will be replaced with the URL of the `public` folder during the build.
+      				Only files inside the `public` folder can be referenced from the HTML.
+
+      				Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      				work correctly both with client-side routing and a non-root public URL.
+      				Learn how to configure a non-root public URL by running `npm run build`.  </p>
+				<hr />
 			</div>
 		);
 	}
@@ -145,18 +151,30 @@ class Course extends React.Component {
 class Repos extends React.Component {
 	render() {
 		return (
-			<div className="main-content courses">
-				<div className="course-header group">
-					<h2>Courses</h2>
-					<ul className="course-nav">
-						<li><a href='/courses/html'>HTML</a></li>
-						<li><a href='/courses/css'>CSS</a></li>
-						<li><a href='/courses/javascript'>JavaScript</a></li>
-					</ul>
-				</div>
-
-				{/* Write routes here... */}
+			<div className="bodie">
+				<nav className="navbar navbar-inverse">
+					<div className="container-fluid">
+						<h2>Courses</h2>
+						<ul className="nav navbar-nav">
+							<li className="active"><a href='/courses/html'>HTML</a></li>
+							<li><a href='/courses/css'>CSS</a></li>
+							<li><a href='/courses/javascript'>JavaScript</a></li>
+						</ul>
+					</div>
+				</nav>
 			</div>
+			// <div className="main-content courses">
+			// 	<div className="course-header group">
+			// 		<h2>Courses</h2>
+			// 		<ul className="course-nav">
+			// 			<li><a href='/courses/html'>HTML</a></li>
+			// 			<li><a href='/courses/css'>CSS</a></li>
+			// 			<li><a href='/courses/javascript'>JavaScript</a></li>
+			// 		</ul>
+			// 	</div>
+
+			// 	{/* Write routes here... */}
+			// </div>
 		);
 	}
 }
@@ -195,7 +213,7 @@ class App extends React.Component {
 		}
 
 		return (
-			<div className= "bodie">
+			<div className="bodie">
 				<nav className="navbar navbar-inverse">
 					<div className="container-fluid">
 						<ul className="nav navbar-nav">
