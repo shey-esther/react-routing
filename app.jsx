@@ -50,7 +50,7 @@ class Teachers extends React.Component {
 					</div>
 					<div className="col-sm-6 ">
 						<div className="thumbnail">
-							<img src="img/teacher.png" alt="..." />
+							<img src="img/tito.png" alt="..." />
 							<div className="caption">
 								<h3>Teachers</h3>
 								<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
@@ -60,7 +60,7 @@ class Teachers extends React.Component {
 					</div>
 					<div className="col-sm-6 ">
 						<div className="thumbnail">
-							<img src="img/teacher.png" alt="..." />
+							<img src="img/lentes.png" alt="..." />
 							<div className="caption">
 								<h3>Teachers</h3>
 								<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
@@ -70,7 +70,7 @@ class Teachers extends React.Component {
 					</div>
 					<div className="col-sm-6 ">
 						<div className="thumbnail">
-							<img src="img/teacher.png" alt="..." />
+							<img src="img/compu.png" alt="..." />
 							<div className="caption">
 								<h3>Teachers</h3>
 								<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
