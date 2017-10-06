@@ -91,10 +91,10 @@ class Course extends React.Component {
 				<div className="media">
 					<div className="media-left">
 						<div className="col-md-12">
-							<div className="col-md-3">
-								<img className="media-object" src="img/web.png" />
+							<div className="col-md-2">
+								<center><img className="media-object" src="img/web.png" /></center>
 							</div>
-							<div className="col-md-9">
+							<div className="col-md-10">
 								<h4 class="media-heading">Media heading</h4>
 								<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
 								visit the Teachers section to view a list of our talented teachers</p>
