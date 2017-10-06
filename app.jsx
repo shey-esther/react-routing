@@ -87,11 +87,21 @@ class Teachers extends React.Component {
 class Course extends React.Component {
 	render() {
 		return (
-			<div className="main-content">
-				<h2>Course</h2>
-				<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
-					visit the Teachers section to view a list of our talented teachers. Or visit the Courses section and select a
-					topic -- HTML, CSS, or JavaScript -- to see a list of our courses.</p>
+			<div className="row">
+				<div className="media">
+					<div className="media-left">
+						<div className="col-md-12">
+							<div className="col-md-3">
+								<img className="media-object" src="img/web.png" />
+							</div>
+							<div className="col-md-9">
+								<h4 class="media-heading">Media heading</h4>
+								<p>The front end course directory lists many of the courses we teach on HTML, CSS, JavaScript and more! Be sure to
+								visit the Teachers section to view a list of our talented teachers</p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		);
 	}
