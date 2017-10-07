@@ -43,6 +43,25 @@ p{
 }
 
 hr{
+  text-align: center;
   padding: 1px;
   background-color: #BBADAD;
+}
+
+.btn{
+  margin-top: 5%;
+  margin-right: 2%;
+  padding: 3%;
+  color: white;
+  text-decoration: none;
+}
+
+div.col-md-12.lenguajes{
+  width: 100%;
+}
+
+.code{
+  color: white;
+  background-color: black;
+  padding: 1.6%;
 }
